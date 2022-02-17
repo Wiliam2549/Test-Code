@@ -14,8 +14,9 @@ function draw() {
   console.log(test);
   //first edge in array a is the left edge
   //second edge is the right edge
-
-  sprite.bounceOff(a[2]);
+  //third edge is the top edge
+  //fourth edge is the bottom edge
+  sprite.bounceOff(a);
   if(keyDown(LEFT_ARROW)) {
     sprite.velocityX = -5
   }
